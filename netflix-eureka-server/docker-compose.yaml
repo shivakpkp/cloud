@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  currency-exchange:
+    image: currency-exchange
+    mem_limit: 700m
+    ports:
+      - "8001:8001"

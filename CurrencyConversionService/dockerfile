@@ -1,0 +1,4 @@
+FROM openjdk:11
+ADD target/CurrencyConversionService-0.0.1-SNAPSHOT.jar currencyconversionservice.jar
+EXPOSE 8100
+ENTRYPOINT ["java" ,"-jar","currencyconversionservice.jar"]
